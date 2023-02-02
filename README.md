@@ -5,7 +5,7 @@ Semana 1 e 2
 <br>
 
 - [x] Dia 01: Criar um repositório para listar os projetos
-- [ ] Dia 02: Fazer um Hello World customizado
+- [x] Dia 02: Fazer um Hello World customizado
 - [ ] Dia 03: Criar um botão animado
 - [ ] Dia 04: Criar uma calculadora
 - [ ] Dia 05: Desenvolver página customizada que exiba o erro 404
