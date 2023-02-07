@@ -1,0 +1,139 @@
+:root {
+  --purple-400: #975dfa;
+  --purple-200: #7f45e2;
+  --purple-300: #462878;
+  --gray-800: #2d2a37;
+  --gray-200: #6b6b6b;
+  --gray-100: #ebebeb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
+}
+
+.calculadora {
+  width: 356px;
+  height: 566px;
+  padding-inline: 32px;
+  padding-top: 54px;
+  background: var(--gray-800);
+  border-radius: 48px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04),
+    0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26),
+    0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1),
+    inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+}
+
+.display {
+  width: 288px;
+  height: 86px;
+  padding-inline: 22px;
+}
+
+.display > span {
+  display: inline-block;
+  width: 100%;
+  color: var(--gray-200);
+  text-align: right;
+  font-size: 20px;
+}
+
+.display .result {
+  margin-top: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.display .result span:first-child {
+  color: var(--gray-200);
+  font-size: 36px;
+}
+.display .result span:last-child {
+  font-size: 36px;
+  color: var(--gray-100);
+}
+
+.teclado {
+  margin-top: 26px;
+  width: 292px;
+  height: 268px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-100);
+  background: var(--gray-800);
+  width: 64px;
+  height: 64px;
+  border: none;
+  border-radius: 50%;
+
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04),
+    0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26),
+    0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.percet,
+.divisao,
+.multiplicacao,
+.soma,
+.subtracao {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0.01%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #462878;
+}
+
+.igual-button {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #7f45e2;
+}
+
+.clear {
+  color: var(--purple-400);
+}
+
+button svg {
+  width: 28px;
+  height: 28px;
+  fill: var(--gray-100);
+}

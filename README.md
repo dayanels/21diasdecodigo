@@ -7,7 +7,7 @@ Semana 1 e 2
 - [x] Dia 01: Criar um repositório para listar os projetos
 - [x] Dia 02: Fazer um Hello World customizado
 - [x] Dia 03: Criar um botão animado
-- [ ] Dia 04: Criar uma calculadora
+- [x] Dia 04: Criar uma calculadora
 - [ ] Dia 05: Desenvolver página customizada que exiba o erro 404
 - [ ] Dia 06: Criar um card com efeito glassmorphism
 - [ ] Dia 07: Desenvolver um contador
