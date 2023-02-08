@@ -8,7 +8,7 @@ Semana 1 e 2
 - [x] Dia 02: Fazer um Hello World customizado
 - [x] Dia 03: Criar um botão animado
 - [x] Dia 04: Criar uma calculadora
-- [ ] Dia 05: Desenvolver página customizada que exiba o erro 404
+- [x] Dia 05: Desenvolver página customizada que exiba o erro 404
 - [ ] Dia 06: Criar um card com efeito glassmorphism
 - [ ] Dia 07: Desenvolver um contador
 - [ ] Dia 08: Toggle que altera tema para claro e escuro
